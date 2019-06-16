@@ -20,12 +20,12 @@
 body {
   padding-top: 90px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   body {
     padding-top: 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   body {
     margin-left: 232px;
   }
@@ -37,7 +37,7 @@ body {
   right: 0;
   z-index: 1030;
 }
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .navbar.fixed-left {
     bottom: 0;
     width: 148px;
@@ -60,7 +60,7 @@ body {
     top: 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .navbar.fixed-left {
     right: auto;
   }
