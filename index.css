@@ -87,3 +87,13 @@ body {
 .navbar-nav {
   text-align: center;
 }
+
+.ba {
+  border: none;
+  /* background-color: transparent !important; */
+}
+/* 
+.ba:hover {
+  color: black !important;
+  background-color: yellow !important;
+} */
