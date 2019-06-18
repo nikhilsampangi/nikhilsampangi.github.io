@@ -5,8 +5,8 @@
   height: 432px;
 }
 
-.col-lg-6.block1a {
-  padding-left: 45px;
+svg.col-lg-6 {
+  right: 1%;
 }
 
 .block1b {
@@ -24,9 +24,12 @@
   background-color: #2b3639dd;
 }
 
-body {
-  padding-top: 90px;
+@media (min-width: 992px) {
+  .hdng {
+    left: 25%;
+  }
 }
+
 @media (min-width: 1000px) {
   body {
     padding-top: 0;
