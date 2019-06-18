@@ -94,3 +94,19 @@ body {
   color: black !important;
   background-color: yellow !important;
 } */
+
+.cref:link {
+  color: white;
+}
+
+.cref:visited {
+  color: whitesmoke;
+}
+
+.cref:hover {
+  color: hotpink;
+}
+
+.cref:active {
+  color: black;
+}
