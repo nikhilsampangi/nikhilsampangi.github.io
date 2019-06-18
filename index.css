@@ -1,9 +1,19 @@
-.block-1 {
-  background: url("/Artboard 1.png") no-repeat;
-  /* background-position: right; */
+.block1a {
+  background: url("./Artboard_4.png") no-repeat;
+  background-position-x: right;
   background-size: cover;
   height: 432px;
-  background-color: #a1b8bc;
+}
+
+.col-lg-6.block1a {
+  padding-left: 45px;
+}
+
+.block1b {
+  background: url("/Artboard_5.png") no-repeat;
+  background-position-x: right;
+  background-size: cover;
+  height: 432px;
 }
 
 .b1c {
