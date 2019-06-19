@@ -5,19 +5,11 @@
   height: 432px;
 }
 
-svg.col-lg-6 {
-  right: 1%;
-}
-
 .block1b {
   background: url("/Artboard_5.png") no-repeat;
   background-position-x: right;
   background-size: cover;
   height: 432px;
-}
-
-.b1c {
-  margin-top: 15vh;
 }
 
 .nb {
@@ -122,4 +114,9 @@ svg.col-lg-6 {
 
 .cref:active {
   color: black;
+}
+
+.scb:hover {
+  background-color: #2b3639 !important;
+  color: whitesmoke !important;
 }
