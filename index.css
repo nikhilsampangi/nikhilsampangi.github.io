@@ -1,4 +1,10 @@
-.block1a {
+.block-1 {
+  background: url("./Artboard 1.png") no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+/* .block1a {
   background: url("./Artboard_4.png") no-repeat;
   background-position-x: right;
   background-size: cover;
@@ -10,7 +16,7 @@
   background-position-x: right;
   background-size: cover;
   height: 432px;
-}
+} */
 
 .nb {
   background-color: #2b3639dd;
