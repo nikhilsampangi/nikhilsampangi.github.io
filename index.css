@@ -1,5 +1,5 @@
 .block-1 {
-  background: url("./Artboard 1.png") no-repeat;
+  background: url("./Artboard_1_c.png") no-repeat;
   background-size: cover;
   height: 50vh;
 }
@@ -33,11 +33,13 @@
     padding-top: 0;
   }
 }
+
 @media (min-width: 1000px) {
   body {
     margin-left: 232px;
   }
 }
+
 .navbar.fixed-left {
   position: fixed;
   top: 0;
@@ -45,6 +47,7 @@
   right: 0;
   z-index: 1030;
 }
+
 @media (min-width: 1000px) {
   .navbar.fixed-left {
     bottom: 0;
@@ -52,26 +55,32 @@
     flex-flow: column nowrap;
     align-items: flex-start;
   }
+
   .navbar.fixed-left .navbar-collapse {
     flex-grow: 0;
     flex-direction: column;
     width: 100%;
   }
+
   .navbar.fixed-left .navbar-collapse .navbar-nav {
     flex-direction: column;
     width: 100%;
   }
+
   .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item {
     width: 100%;
   }
+
   .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
     top: 0;
   }
 }
+
 @media (min-width: 1000px) {
   .navbar.fixed-left {
     right: auto;
   }
+
   .navbar.fixed-left .navbar-nav .nav-item .dropdown-toggle:after {
     border-top: 0.3em solid transparent;
     border-left: 0.3em solid;
@@ -79,6 +88,7 @@
     border-right: none;
     vertical-align: baseline;
   }
+
   .navbar.fixed-left .navbar-nav .nav-item .dropdown-menu {
     left: 100%;
   }
@@ -100,6 +110,7 @@
   border: none;
   /* background-color: transparent !important; */
 }
+
 /* 
 .ba:hover {
   color: black !important;
